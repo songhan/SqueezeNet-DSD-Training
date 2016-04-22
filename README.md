@@ -1,4 +1,4 @@
-### Contents
+### Contents:
 
 This repo demos Dense-Sparse-Dense(DSD) training methodology.
 
