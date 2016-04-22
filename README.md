@@ -1,3 +1,5 @@
+### Contents
+
 This repo demos Dense-Sparse-Dense(DSD) training methodology.
 
 The repo contains the DSD-SqueezeNet caffemodel, which is obtained by applying Dense-Sparse-Dense training methodology to SqueezeNet v1.0. DSD training methodology improves the top-1 accuracy of SqueezeNet by 4.3% on ImageNet without changing the model architecture and model size. 
@@ -40,11 +42,11 @@ If you find SqueezeNet, DSD training, network pruning and Deep Compression usefu
     }
 
 
-Usage:
+### Usage:
 
     $CAFFE_ROOT/build/tools/caffe test --model=trainval.prototxt --weights=DSD_SqueezeNet_top1_0.617579_top5_0.834742.caffemodel --iterations=1000 --gpu 0
 
-Result:
+### Result:
       
     I0421 13:58:46.246104  5184 caffe.cpp:293] accuracy_top1 = 0.617579
     I0421 13:58:46.246115  5184 caffe.cpp:293] accuracy_top5 = 0.834742
